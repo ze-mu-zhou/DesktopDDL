@@ -1,0 +1,28 @@
+# Local compiler, staging area, and generated release artifacts
+.build-tools/
+.installer-build/
+dist/
+
+# Private reminder data and archived portable copies
+backups/
+
+# Build outputs and test captures
+*.exe
+*.dll
+*.pdb
+*.log
+*.lnk
+/preview-*.png
+/bin/
+/obj/
+
+# Never commit local reminder data or credentials
+reminders.json*
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.pem
+.vs/
